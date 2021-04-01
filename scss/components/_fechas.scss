@@ -1,0 +1,54 @@
+/* Fechas */
+
+.fechasBackground {
+	background-image: url(https://www.wallpapertip.com/wmimgs/178-1783299_black-space-wallpaper-laptop.jpg);
+	@extend %fondo-img;
+	border-bottom: 3px solid $color-texto2;
+}
+.cardContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+.card-tour {
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+	margin: 10px;
+	h5 {
+		font-family: "radiofont";
+		text-align: center;
+		font-size: 30px;
+	}
+	p {
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 10px;
+	}
+}
+.card-link {
+	color: $color-texto1;
+	text-decoration: none;
+	&:hover {
+		background-color: $color-texto1 !important;
+		color: $color-texto3 !important;
+		padding: 5px;
+	}
+}
+.card-img-top {
+	width: 200px;
+	height: 300px;
+	&:hover {
+		box-shadow: 1px 1px 7px 1px $color-texto2;
+		transition: all 0.3s ease;
+	}
+}
+.list-group-item {
+	&:hover {
+		box-shadow: 1px 1px 7px 1px $color-texto2;
+		transition: all 0.3s ease;
+		background-color: $color-texto1 !important;
+		color: $color-texto3 !important;
+	}
+}

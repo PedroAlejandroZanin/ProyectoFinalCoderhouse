@@ -1,0 +1,42 @@
+/* Contacto */
+
+.redes {
+	padding: 50px 20px;
+}
+.suscribirse {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contacto {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	img {
+		&:hover {
+			transform: scale(1.2);
+			transition: all 0.3s;
+		}
+	}
+}
+.boton {
+	border: 1px solid $color-texto2;
+	background-color: $color-texto3;
+	padding: 10px;
+	color: $color-texto1;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 15;
+	&:hover {
+		background-color: $color-texto1;
+		transition: all 0.5s ease;
+		color: $color-texto3;
+		border: 1px solid $color-texto2;
+	}
+}
+.box {
+	padding: 10px;
+	border: 1px solid $color-texto2;
+	background-color: $color-fondo;
+	color: $color-texto1;
+}

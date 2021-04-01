@@ -1,0 +1,514 @@
+/* Import */
+/* Variables */
+/* Extends */
+.tiendaBackground, .galeriaBackground, .musicaFondo, .fechasBackground, .containerOk, .containerYouNever, .containerEarth, .containerAnima, .fotoPortada {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* Fuentes */
+@font-face {
+  font-family: "radiofont";
+  src: url("../fuente/bdplakatt.woff") format("Woff");
+}
+/* Reset */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Texto / Color */
+body {
+  background-color: #0e0d0d;
+}
+
+.fondo-transparente {
+  background-color: rgba(0, 0, 0, 0.45);
+  margin: 30px;
+  padding: 15px;
+}
+
+.tituloSeccion {
+  color: #f0f8ff;
+  font-family: "radiofont";
+  font-size: 7vw;
+  padding: 2em;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: "radiofont";
+  font-size: 80px;
+  text-align: center;
+  color: #f0f8ff;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 40px;
+  font-family: "radiofont";
+  color: #f0f8ff;
+  margin: 30px 5px;
+  text-align: center;
+}
+
+hr {
+  color: #ff136e;
+  margin: 0px 30px;
+}
+
+/* Menu */
+.menuContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 5;
+}
+.menuContainer li {
+  display: inline-block;
+}
+.menuContainer li a:hover {
+  background-color: #f0f8ff;
+  color: #000000 !important;
+  transition: all 0.5s ease;
+}
+.menuContainer a {
+  font-family: "radiofont";
+  font-size: 27px;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f0f8ff !important;
+}
+
+.logo {
+  margin: 5px 5px;
+  position: fixed;
+  left: 25px;
+  top: 0;
+  z-index: 1;
+}
+.logo:hover {
+  transform: rotate(720deg) scale(1.1);
+  transition: all 0.5s ease;
+}
+
+/* Inicio */
+.tituloInicio {
+  color: #f0f8ff;
+  font-family: "radiofont";
+  font-size: 12vw;
+  padding: 1.5em;
+  opacity: 0;
+}
+.tituloInicio:hover {
+  color: #f0f8ff;
+  transform: scale(1);
+  transition: all 3s ease;
+  opacity: 1;
+}
+
+.fotoPortada {
+  background-image: url(https://wallsdesk.com/wp-content/uploads/2017/01/Radiohead-Wallpapers-HD.jpg);
+}
+
+.cardInicio:hover {
+  border: 1px solid #ff136e;
+  transition: all 0.2s ease;
+}
+
+.card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img-overlay p {
+  font-family: "Didact Gothic", sans-serif;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 15px;
+  text-decoration: none;
+  color: #f0f8ff;
+}
+.card-img-overlay p:hover {
+  background-color: #000000;
+  color: #ff136e;
+  transform: scale(1.04);
+  transition: all 0.5s ease;
+}
+
+.containerAnima {
+  background-image: url("../img/principal/thomAnima.jpg");
+  padding: 1.5em;
+  margin: 50px 30px;
+}
+
+.container-netflix {
+  margin: 50px 30px;
+}
+
+.videoanima {
+  width: 100%;
+  height: 500px;
+}
+
+.containerEarth {
+  background-image: url("../img/principal/eob-earth.jpg");
+  padding: 1.5em;
+  margin: 50px 30px;
+}
+
+.containerYouNever {
+  background-image: url("../img/principal/jonny-younever.jpg");
+  padding: 1.5em;
+  margin: 50px 30px;
+}
+
+.containerOk {
+  background-image: url("../img/principal/ok-computer.jpg");
+  padding: 1.5em;
+  margin: 50px 30px;
+}
+
+.animaTexto {
+  color: #f0f8ff;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 20px;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 15px 15px;
+}
+
+.animaFondo {
+  transition: all 0.3s ease;
+  width: 350px;
+  height: 350px;
+  margin: 100px 0;
+}
+.animaFondo:hover {
+  box-shadow: 1px 1px 7px 1px #f0f8ff;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Fechas */
+.fechasBackground {
+  background-image: url(https://www.wallpapertip.com/wmimgs/178-1783299_black-space-wallpaper-laptop.jpg);
+  border-bottom: 3px solid #ff136e;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.card-tour {
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+.card-tour h5 {
+  font-family: "radiofont";
+  text-align: center;
+  font-size: 30px;
+}
+.card-tour p {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 10px;
+}
+
+.card-link {
+  color: #f0f8ff;
+  text-decoration: none;
+}
+.card-link:hover {
+  background-color: #f0f8ff !important;
+  color: #000000 !important;
+  padding: 5px;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 300px;
+}
+.card-img-top:hover {
+  box-shadow: 1px 1px 7px 1px #ff136e;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  box-shadow: 1px 1px 7px 1px #ff136e;
+  transition: all 0.3s ease;
+  background-color: #f0f8ff !important;
+  color: #000000 !important;
+}
+
+/* Musica */
+.musicaFondo {
+  background-image: url(../img/principal/anima-musica.jpg);
+  border-bottom: 3px solid #ff136e;
+}
+
+.musicaContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div-imagen {
+  position: relative;
+}
+.div-imagen img {
+  width: 290px;
+  height: 290px;
+  margin: 5px 5px;
+}
+.div-imagen div ol {
+  position: absolute;
+  color: #f0f8ff;
+  z-index: -1;
+  margin: 25px;
+  font-size: 13px;
+  font-family: "Didact Gothic", sans-serif;
+  flex-direction: column;
+}
+.div-imagen div p {
+  position: absolute;
+  margin-left: 100px;
+  color: #f0f8ff;
+  z-index: -1;
+  font-size: 15px;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.desvanecer:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.07;
+}
+
+/* Galeria */
+.galeriaBackground {
+  background-image: url("../img/principal/galeria-back.png");
+  border-bottom: 3px solid #ff136e;
+}
+
+.galeriaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galeriaContainer img {
+  margin: 5px;
+  width: 300px;
+  height: 450px;
+}
+
+.imageGaleria {
+  filter: grayscale(100%);
+}
+.imageGaleria:hover {
+  transition: all 0.5s;
+  filter: grayscale(0);
+}
+
+/* Tienda */
+.tiendaBackground {
+  background-image: url(https://eskipaper.com/images/hd-space-wallpapers-6.jpg);
+  border-bottom: 3px solid #ff136e;
+}
+
+.ropaContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.ropaContainer img {
+  width: 225px;
+  height: 225px;
+}
+.ropaContainer img:hover {
+  border: 1px solid #ff136e;
+  background-color: #0e0d0d;
+  border-radius: 75%;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+/* Contacto */
+.redes {
+  padding: 50px 20px;
+}
+
+.suscribirse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.contacto img:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.boton {
+  border: 1px solid #ff136e;
+  background-color: #000000;
+  padding: 10px;
+  color: #f0f8ff;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 15;
+}
+.boton:hover {
+  background-color: #f0f8ff;
+  transition: all 0.5s ease;
+  color: #000000;
+  border: 1px solid #ff136e;
+}
+
+.box {
+  padding: 10px;
+  border: 1px solid #ff136e;
+  background-color: #0e0d0d;
+  color: #f0f8ff;
+}
+
+/* Filtros */
+.filtroLista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filtroLista li {
+  display: inline-block;
+  margin: 30px 5px;
+}
+.filtroLista a {
+  font-size: 40px;
+  color: #f0f8ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "radiofont";
+  display: inline-block;
+}
+.filtroLista a:hover {
+  color: #000000;
+  background-color: #f0f8ff;
+  transition: all 0.5s ease;
+}
+
+/* Media Queries*/
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+  .fotoPortada {
+    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+  }
+
+  .fechasBackground {
+    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+  }
+
+  .musicaFondo {
+    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+  }
+
+  .galeriaBackground {
+    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+  }
+
+  .tiendaBackground {
+    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+  }
+
+  .tituloSeccion {
+    font-size: 60px;
+  }
+
+  h2 {
+    color: #ff136e;
+    font-size: 30px;
+  }
+
+  .filtroLista a {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  footer .contacto {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .card-img-overlay p {
+    font-size: 10px !important;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .menuContainer a {
+    background-color: rgba(0, 0, 0, 0.45) !important;
+  }
+
+  .menuContainer li a:hover {
+    background-color: #f0f8ff !important;
+    color: #000000 !important;
+    transition: all 0.5s ease;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .navbar-toggler {
+    background-color: #000000;
+  }
+
+  .navbar-toggler:hover {
+    color: #ff136e !important;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+}
+/* Mixin */
+.ropa-contenedor {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ropa-contenedor img {
+  width: 200px;
+  height: 200px;
+}
+
+.boton2 {
+  display: inline-block;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */

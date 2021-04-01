@@ -1,0 +1,26 @@
+/* Mixin */
+
+@mixin textoh1($fontsize, $fontfamily)
+{
+    font-size: $fontsize;
+    font-family: $fontfamily; 
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+@mixin textoh2($fontsize, $fontfamily)
+ {
+    font-size: $fontsize;
+    font-family: $fontfamily; 
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    
+}
+
+
+
+

@@ -1,0 +1,48 @@
+/* Musica */
+
+.musicaFondo {
+	background-image: url(../img/principal/anima-musica.jpg);
+	@extend %fondo-img;
+	border-bottom: 3px solid $color-texto2;
+}
+.musicaContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.div-imagen {
+	position: relative;
+	img {
+		width: 290px;
+		height: 290px;
+		margin: 5px 5px;
+	}
+	div {
+		ol {
+			position: absolute;
+			color: $color-texto1;
+			z-index: -1;
+			margin: 25px;
+			font-size: 13px;
+			font-family: 'Didact Gothic', sans-serif;
+			flex-direction: column;
+		}
+		p {
+			position: absolute;
+			margin-left: 100px;
+			color: $color-texto1;
+			z-index: -1;
+			font-size: 15px;
+			font-family: 'Didact Gothic', sans-serif;
+		}
+	}
+}
+.desvanecer {
+	&:hover {
+		transform: scale(1.1);
+		transition: all 0.3s ease-in-out;
+		opacity: 0.07;
+	}
+}
+

@@ -1,0 +1,80 @@
+/* Media Queries*/
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+	.fotoPortada {
+		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+		@extend %fondo-img;
+	}
+	.fechasBackground {
+		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+		@extend %fondo-img;
+	}
+	.musicaFondo {
+		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+		@extend %fondo-img;
+	}
+	.galeriaBackground {
+		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+		@extend %fondo-img;
+	}
+	.tiendaBackground {
+		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+		@extend %fondo-img;
+	}
+	.tituloSeccion {
+		font-size: 60px;
+	}
+	h2 {
+		color: $color-texto2;
+		font-size: 30px;
+	}
+	.filtroLista {
+		a {
+			font-size: 30px;
+		}
+	}
+}
+@media only screen and (max-width: 990px) {
+	footer {
+		.contacto {
+			display: flex;
+			justify-content: center;
+			flex-flow: row wrap;
+		}
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.card-img-overlay {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	}
+	.card-img-overlay p {
+		font-size: 10px !important;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.menuContainer a {
+		background-color: $fondo-transparente !important;
+	}
+	.menuContainer li a:hover {
+		background-color: $color-texto1 !important;
+		color: $color-texto3 !important;
+		transition: all 0.5s ease;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+.navbar-toggler{
+	background-color: $color-texto3;
+}
+.navbar-toggler:hover {
+	color: $color-texto2 !important;
+	transform: scale(1.1);
+	transition: all 0.3s ease;
+}
+}

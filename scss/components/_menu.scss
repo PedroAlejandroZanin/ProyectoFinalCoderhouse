@@ -1,0 +1,38 @@
+/* Menu */
+
+.menuContainer {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	z-index: 5;
+	li {
+		display: inline-block;
+		a {
+			&:hover {
+				background-color: $color-texto1;
+				color: $color-texto3 !important;
+				transition: all 0.5s ease;
+			}
+		}
+	}
+	a {
+		font-family: "radiofont";
+		font-size: 27px;
+		padding: 5px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: $color-texto1 !important;
+	}
+}
+.logo {
+	margin: 5px 5px;
+	position: fixed;
+	left: 25px;
+	top: 0;
+	z-index: 1;
+	&:hover {
+		transform: rotate(720deg) scale(1.1);
+		transition: all 0.5s ease;
+	}
+}
