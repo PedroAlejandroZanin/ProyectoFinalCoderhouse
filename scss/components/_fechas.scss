@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	// background-image: url("../img/principal/cielo.png") !important;
 	background-position: center;
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -20,7 +21,9 @@
 	h5 {
 		font-family: "radiofont";
 		text-align: center;
-		font-size: 30px;
+		font-size: 35px;
+		color: $color-texto2;
+		letter-spacing: 1px;
 	}
 	p {
 		font-family: 'Didact Gothic', sans-serif;
@@ -40,15 +43,15 @@
 	width: 200px;
 	height: 300px;
 	&:hover {
-		box-shadow: 1px 1px 7px 1px $color-texto2;
-		transition: all 0.3s ease;
+		box-shadow: 1px 1px 25px 1px $color-texto2;
+		transition: all 0.2s ease;
 	}
 }
 .list-group-item {
 	&:hover {
-		box-shadow: 1px 1px 7px 1px $color-texto2;
-		transition: all 0.3s ease;
-		background-color: $color-texto1 !important;
+		// box-shadow: 1px 1px 7px 1px $color-texto2;
+		transition: all 0.2s ease;
+		background-color: $color-texto2 !important;
 		color: $color-texto3 !important;
 	}
 }

@@ -20,44 +20,47 @@
 	}
 	div {
 		ol {
-			position: absolute;
-			color: $color-texto1;
-			z-index: -1;
-			margin: 25px;
-			font-size: 13px;
+			font-size: 13.5px;
 			font-family: 'Didact Gothic', sans-serif;
+			color: $color-texto1;
+			margin: 5px;
+			z-index: -1;
+			position: absolute;
 			flex-direction: column;
-		}
-		p {
-			position: absolute;
-			margin-left: 100px;
-			color: $color-texto1;
-			z-index: -1;
-			font-size: 15px;
-			font-family: 'Didact Gothic', sans-serif;
 		}
 	}
 }
 .desvanecer {
 	&:hover {
 		transition: all 0.2s ease;
-		opacity: 0;
+		opacity: 0.1;
 	}
 }
 
-.boton-musica {
-	font-size:20px;
-	margin: 10px;
-	padding: 0 20px;
-    color: $color-texto1;
-    border: 2px solid $color-texto1;
-    border-radius: 5px;
+.modal-fondo {
+	background-color: $color-texto3 !important;
+	border: 3px solid $color-texto2;
 }
 
-.boton-musica:hover {
-	color: $color-texto2;
-    background-color: $color-texto1;
-    border: 2px solid $color-texto2;
-    border-radius: 5px;
-    transition: all 0.5s ease;
+.modal-title {
+	font-size: 20px;
+	font-family: 'Didact Gothic', sans-serif !important;
+	color: $color-texto1 !important;
+	text-align: center !important;
 }
+
+.logo-spotify {
+	background-color: $color-texto2;
+	border: 2px solid $color-texto2 !important;
+	width: 32% !important;
+	height: 32% !important;
+	cursor: pointer;
+	border-radius: 5px !important;
+}
+
+.logo-spotify:hover {
+	background-color: $color-texto2;
+	border: 2px solid $color-texto3 !important;
+	transition: all 0.5s ease;
+}
+
