@@ -6,33 +6,41 @@
 		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
 		@extend %fondo-img;
 	}
+
 	.fechasBackground {
 		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
 		@extend %fondo-img;
 	}
+
 	.musicaFondo {
 		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
 		@extend %fondo-img;
 	}
+
 	.galeriaBackground {
 		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
 		@extend %fondo-img;
 	}
+
 	.tiendaBackground {
 		background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
 		@extend %fondo-img;
 	}
+
 	.tituloInicio {
 		font-size: 5em;
 		opacity: 1;
 	}
+
 	.tituloSeccion {
 		font-size: 60px;
 	}
+
 	h2 {
 		color: $color-texto2;
 		font-size: 40px;
 	}
+
 	.filtroLista {
 		a {
 			font-size: 30px;
@@ -41,10 +49,11 @@
 }
 
 @media only screen and (max-width: 992px) {
-	.menuContainer a {
+	.navbar-collapse a {
 		background-color: $fondo-transparente !important;
 	}
-	.menuContainer li a:hover {
+
+	.navbar-collapse li a:hover {
 		background-color: $color-texto1 !important;
 		color: $color-texto3 !important;
 		transition: all 0.5s ease;
@@ -52,18 +61,20 @@
 }
 
 @media only screen and (max-width: 992px) {
-.navbar-toggler{
-	background-color: $color-texto3;
-}
-.navbar-toggler:hover {
-	color: $color-texto2 !important;
-	transform: scale(1.1);
-	transition: all 0.3s ease;
-}
+	.navbar-toggler {
+		background-color: $color-texto3;
+	}
+
+	.navbar-toggler:hover {
+		color: $color-texto2 !important;
+		transform: scale(1.1);
+		transition: all 0.3s ease;
+	}
 }
 
 /*== 768px ==*/
 @media only screen and (max-width: 768px) {
+
 	.containerAnima img,
 	.containerEarth img,
 	.containerYouNever img,
@@ -73,6 +84,7 @@
 		height: 100%;
 		width: 100%;
 	}
+
 	.container-netflix iframe {
 		width: 100%;
 		height: 235px;
@@ -81,7 +93,7 @@
 
 @media only screen and (max-width: 768px) {
 	.filtroLista li {
-		text-align: center;
+		text-align: center !important;
 		display: block;
 		justify-content: center;
 		flex-direction: column;
@@ -94,8 +106,13 @@
 		.contacto {
 			display: flex;
 			justify-content: center;
-			flex-flow: column nowrap; 
+			flex-flow: column nowrap;
+
+			i {
+				margin: 15px 0;
+			}
 		}
+
 		.suscribirse button {
 			display: flex;
 			justify-content: center;
@@ -109,16 +126,14 @@
 
 @media only screen and (max-width: 380px) {
 	.card-img-overlay {
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
 	}
+
 	.card-img-overlay p {
 		font-size: 13px !important;
 		padding: 0;
 		margin: 0;
 	}
 }
-
-
-

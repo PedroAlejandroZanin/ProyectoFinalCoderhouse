@@ -9,14 +9,15 @@
 	align-items: center;
 }
 .contacto {
+	color: $color-texto2 !important;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
-	img {
+	i { margin: 0 15px;
 		&:hover {
-			transform: scale(1.2);
-			transition: all 0.3s;
+			color: $color-texto1;
+			transition: all 0.2s;
 		}
 	}
 }
