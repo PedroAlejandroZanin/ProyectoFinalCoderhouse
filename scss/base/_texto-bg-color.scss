@@ -28,20 +28,18 @@ h1 {
 }
 
 h2 {
-	display: flex;
-	justify-content: center;
-	align-self: center;
 	font-size: 40px;
-	font-family: "radiofont";
 	color: $color-texto1;
+	font-family: "radiofont";
 	margin: 30px 5px;
 	text-align: center;
 }
 
 h3 {
 	font-size: 15px;
-	font-family: 'Didact Gothic', sans-serif;
 	color: $color-texto1;
+	font-family: 'Didact Gothic', sans-serif;
+	margin: 15px 0px;
 	text-align: center;
 }
 

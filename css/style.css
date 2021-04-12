@@ -50,20 +50,18 @@ h1 {
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
-  align-self: center;
   font-size: 40px;
-  font-family: "radiofont";
   color: #f0f8ff;
+  font-family: "radiofont";
   margin: 30px 5px;
   text-align: center;
 }
 
 h3 {
   font-size: 15px;
-  font-family: "Didact Gothic", sans-serif;
   color: #f0f8ff;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 15px 0px;
   text-align: center;
 }
 
@@ -341,7 +339,7 @@ hr {
 .logo-spotify:hover {
   background-color: #d90368;
   border: 2px solid #000000 !important;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 /* Galeria */
@@ -529,6 +527,7 @@ hr {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  margin: 15px 0;
 }
 .contacto i {
   margin: 0 15px;
@@ -631,7 +630,7 @@ hr {
   }
 
   .navbar-collapse li a:hover {
-    background-color: #f0f8ff !important;
+    background-color: #d90368 !important;
     color: #000000 !important;
     transition: all 0.5s ease;
   }
