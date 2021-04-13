@@ -26,8 +26,9 @@
 	}
 	div {
 		ol {
-			font-size: 13.5px;
-			font-family: 'Didact Gothic', sans-serif;
+			font-size: 14px;
+			font-family: sans-serif;
+			text-align: center !important;
 			color: $color-texto1;
 			margin: 5px;
 			z-index: -1;
@@ -38,8 +39,9 @@
 }
 .desvanecer {
 	&:hover {
-		transition: all 0.2s ease;
-		opacity: 0.1;
+		transform: scale(1.1);
+		transition: all 0.5s;
+		opacity: 0.10;
 	}
 }
 
@@ -58,8 +60,8 @@
 .logo-spotify {
 	background-color: $color-texto2;
 	border: 2px solid $color-texto2 !important;
-	width: 32% !important;
-	height: 32% !important;
+	width: 25% !important;
+	height: 25% !important;
 	cursor: pointer;
 	border-radius: 5px !important;
 }

@@ -22,9 +22,13 @@ h1 {
     justify-content: center;
     align-self: center;
     font-family: "radiofont";
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
 	color: $color-texto1;
+	text-transform: uppercase;
+	background: linear-gradient(to right, $color-texto3 20%, $color-texto1 50%, $color-texto2 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -36,7 +40,7 @@ h2 {
 }
 
 h3 {
-	font-size: 15px;
+	font-size: 16px;
 	color: $color-texto1;
 	font-family: 'Didact Gothic', sans-serif;
 	margin: 15px 0px;

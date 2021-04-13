@@ -74,13 +74,12 @@
 
 /*== 768px ==*/
 @media only screen and (max-width: 768px) {
-
 	.containerAnima img,
 	.containerEarth img,
 	.containerYouNever img,
 	.containerOk img {
 		display: block;
-		margin: auto;
+		margin: -10px auto;
 		height: 100%;
 		width: 100%;
 	}

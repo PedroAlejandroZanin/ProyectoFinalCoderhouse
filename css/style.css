@@ -44,9 +44,13 @@ h1 {
   justify-content: center;
   align-self: center;
   font-family: "radiofont";
-  font-size: 80px;
+  font-size: 90px;
   text-align: center;
   color: #f0f8ff;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #000000 20%, #f0f8ff 50%, #d90368 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -58,7 +62,7 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 16px;
   color: #f0f8ff;
   font-family: "Didact Gothic", sans-serif;
   margin: 15px 0px;
@@ -117,14 +121,13 @@ hr {
 .tituloInicio {
   color: #f0f8ff;
   font-family: "radiofont";
-  font-size: 12vw;
+  font-size: 12.5vw;
   padding: 1.5em;
   opacity: 0;
 }
 .tituloInicio:hover {
-  color: #f0f8ff;
   transform: scale(1);
-  transition: all 3s ease;
+  transition: all 2s ease;
   opacity: 1;
 }
 
@@ -301,8 +304,9 @@ hr {
   margin: 5px 5px;
 }
 .div-imagen div ol {
-  font-size: 13.5px;
-  font-family: "Didact Gothic", sans-serif;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center !important;
   color: #f0f8ff;
   margin: 5px;
   z-index: -1;
@@ -311,7 +315,8 @@ hr {
 }
 
 .desvanecer:hover {
-  transition: all 0.2s ease;
+  transform: scale(1.1);
+  transition: all 0.5s;
   opacity: 0.1;
 }
 
@@ -330,8 +335,8 @@ hr {
 .logo-spotify {
   background-color: #d90368;
   border: 2px solid #d90368 !important;
-  width: 32% !important;
-  height: 32% !important;
+  width: 25% !important;
+  height: 25% !important;
   cursor: pointer;
   border-radius: 5px !important;
 }
@@ -430,84 +435,6 @@ hr {
   background: radial-gradient(circle, #d90368 0%, #000000 100%);
   border: 2px solid #d90368 !important;
   transition: all 0.1s ease !important;
-}
-
-.btn-neon {
-  position: relative;
-  display: inline-block;
-  padding: 15px 30px;
-  color: #fff;
-  letter-spacing: 4px;
-  text-decoration: none;
-  font-size: 24px;
-  overflow: hidden;
-  transition: 0.2s;
-}
-
-.btn-neon:hover {
-  background: #a945c7;
-  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
-  transition-delay: 1s;
-}
-
-.btn-neon span {
-  position: absolute;
-  display: block;
-}
-
-#span1 {
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #a945c7);
-}
-
-.btn-neon:hover #span1 {
-  left: 100%;
-  transition: 1s;
-}
-
-#span3 {
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #a945c7);
-}
-
-.btn-neon:hover #span3 {
-  right: 100%;
-  transition: 1s;
-  transition-delay: 0.5s;
-}
-
-#span2 {
-  top: -100%;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #a945c7);
-}
-
-.btn-neon:hover #span2 {
-  top: 100%;
-  transition: 1s;
-  transition-delay: 0.25s;
-}
-
-#span4 {
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #a945c7);
-}
-
-.btn-neon:hover #span4 {
-  bottom: 100%;
-  transition: 1s;
-  transition-delay: 0.75s;
 }
 
 /* Contacto */
@@ -653,7 +580,7 @@ hr {
 .containerYouNever img,
 .containerOk img {
     display: block;
-    margin: auto;
+    margin: -10px auto;
     height: 100%;
     width: 100%;
   }

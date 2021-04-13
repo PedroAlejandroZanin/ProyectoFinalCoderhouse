@@ -3,13 +3,12 @@
 .tituloInicio {
 	color: $color-texto1;
 	font-family: "radiofont";
-	font-size: 12vw;
+	font-size: 12.5vw;
 	padding: 1.5em;
 	opacity: 0;
 	&:hover {
-		color: $color-texto1;
 		transform: scale(1);
-		transition: all 3s ease;
+		transition: all 2s ease;
 		opacity: 1;
 	}
 }
@@ -86,7 +85,6 @@
 	padding: 15px 15px;
 }
 .animaFondo {
-	// box-shadow: 1px 1px 7px 1px $color-texto2;
 	transition: all 0.3s ease;
 	width: 350px;
 	height: 350px;
