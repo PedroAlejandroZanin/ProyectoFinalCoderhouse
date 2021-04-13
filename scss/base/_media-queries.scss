@@ -29,11 +29,19 @@
 
 	.tituloInicio {
 		font-size: 5em;
+		background-clip: text;
+		background: linear-gradient(to right, $color-texto3 16%, $color-texto1 50%, $color-texto2 75%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 		opacity: 1;
 	}
 
 	.tituloSeccion {
 		font-size: 60px;
+		background-clip: text;
+		background: linear-gradient(to right, $color-texto3 20%, $color-texto1 50%, $color-texto2 75%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 	h2 {
@@ -74,6 +82,7 @@
 
 /*== 768px ==*/
 @media only screen and (max-width: 768px) {
+
 	.containerAnima img,
 	.containerEarth img,
 	.containerYouNever img,
@@ -94,7 +103,7 @@
 	.filtroLista li {
 		text-align: center !important;
 		display: block;
-		justify-content: center;
+		justify-content: center !important;
 		flex-direction: column;
 	}
 }
@@ -120,6 +129,23 @@
 			margin: 10px 0;
 			margin-left: 25%;
 		}
+	}
+
+	.tituloInicio {
+		font-size: 5em;
+		background-clip: text;
+		background: linear-gradient(to right, $color-texto3 10%, $color-texto1 50%, $color-texto2 75%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		opacity: 1;
+	}
+
+	.tituloSeccion {
+		font-size: 60px;
+		background-clip: text;
+		background: linear-gradient(to right, $color-texto3 10%, $color-texto1 50%, $color-texto2 75%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 }
 

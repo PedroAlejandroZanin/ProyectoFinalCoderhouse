@@ -5,6 +5,7 @@
 	@extend %fondo-img;
 	border-bottom: 3px solid $color-texto2;
 }
+
 .musicaContainer {
 	display: flex;
 	justify-content: center;
@@ -19,11 +20,13 @@
 
 .div-imagen {
 	position: relative;
+
 	img {
 		width: 290px;
 		height: 290px;
 		margin: 5px 5px;
 	}
+
 	div {
 		ol {
 			font-size: 14px;
@@ -37,6 +40,7 @@
 		}
 	}
 }
+
 .desvanecer {
 	&:hover {
 		transform: scale(1.1);
@@ -72,3 +76,7 @@
 	transition: all 0.2s ease;
 }
 
+.filtroLista a {
+	font-size: 35px !important;
+	padding: 0 10px;
+}

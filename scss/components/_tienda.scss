@@ -50,16 +50,18 @@
 }
 
 .boton {
-    font-size: 14px !important;
+    font-size: 12px !important;
+	letter-spacing: 1px;
     color: $color-texto1;
 	background-color: $color-texto2 !important;
-    border: 2px solid $color-texto2 !important;
+    border: 1px solid $color-texto2 !important;
     border-radius: 5px !important;
 }
 
 .boton:hover {
     color: $color-texto1 !important;
 	background: radial-gradient(circle, $color-texto2  0%, $color-texto3 100%);
-    border: 2px solid $color-texto2 !important;
-    transition: all 0.1s ease !important;
+    border: 1px solid $color-texto2 !important;
+    transition: all 0.3s ease !important;
 }
+

@@ -26,10 +26,7 @@ h1 {
     text-align: center;
 	color: $color-texto1;
 	text-transform: uppercase;
-	background: linear-gradient(to right, $color-texto3 20%, $color-texto1 50%, $color-texto2 75%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
+ }
 
 h2 {
 	font-size: 40px;

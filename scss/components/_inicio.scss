@@ -1,7 +1,7 @@
 /* Inicio */
 
 .tituloInicio {
-	color: $color-texto1;
+	color: $color-texto1 !important;
 	font-family: "radiofont";
 	font-size: 12.5vw;
 	padding: 1.5em;
@@ -96,7 +96,12 @@
 }
 
 .enlaces a img {
+	padding: 3px;
 	width: 35%;
 	height: 35%;
 }
 
+// .enlaces img:hover {
+// 	background-color: $color-texto2;
+// 	transition: all 0.5s;
+// }

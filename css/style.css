@@ -48,9 +48,6 @@ h1 {
   text-align: center;
   color: #f0f8ff;
   text-transform: uppercase;
-  background: linear-gradient(to right, #000000 20%, #f0f8ff 50%, #d90368 75%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -119,7 +116,7 @@ hr {
 
 /* Inicio */
 .tituloInicio {
-  color: #f0f8ff;
+  color: #f0f8ff !important;
   font-family: "radiofont";
   font-size: 12.5vw;
   padding: 1.5em;
@@ -216,6 +213,7 @@ hr {
 }
 
 .enlaces a img {
+  padding: 3px;
   width: 35%;
   height: 35%;
 }
@@ -347,6 +345,11 @@ hr {
   transition: all 0.2s ease;
 }
 
+.filtroLista a {
+  font-size: 35px !important;
+  padding: 0 10px;
+}
+
 /* Galeria */
 .galeriaBackground {
   background-image: url(https://pp.userapi.com/c847122/v847122124/e7c38/9B1oFakcZPo.jpg);
@@ -423,18 +426,19 @@ hr {
 }
 
 .boton {
-  font-size: 14px !important;
+  font-size: 12px !important;
+  letter-spacing: 1px;
   color: #f0f8ff;
   background-color: #d90368 !important;
-  border: 2px solid #d90368 !important;
+  border: 1px solid #d90368 !important;
   border-radius: 5px !important;
 }
 
 .boton:hover {
   color: #f0f8ff !important;
   background: radial-gradient(circle, #d90368 0%, #000000 100%);
-  border: 2px solid #d90368 !important;
-  transition: all 0.1s ease !important;
+  border: 1px solid #d90368 !important;
+  transition: all 0.3s ease !important;
 }
 
 /* Contacto */
@@ -535,11 +539,19 @@ hr {
 
   .tituloInicio {
     font-size: 5em;
+    background-clip: text;
+    background: linear-gradient(to right, #000000 16%, #f0f8ff 50%, #d90368 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     opacity: 1;
   }
 
   .tituloSeccion {
     font-size: 60px;
+    background-clip: text;
+    background: linear-gradient(to right, #000000 20%, #f0f8ff 50%, #d90368 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   h2 {
@@ -594,7 +606,7 @@ hr {
   .filtroLista li {
     text-align: center !important;
     display: block;
-    justify-content: center;
+    justify-content: center !important;
     flex-direction: column;
   }
 }
@@ -616,6 +628,23 @@ hr {
     margin: 10px 0;
     margin-left: 25%;
   }
+
+  .tituloInicio {
+    font-size: 5em;
+    background-clip: text;
+    background: linear-gradient(to right, #000000 10%, #f0f8ff 50%, #d90368 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+  }
+
+  .tituloSeccion {
+    font-size: 60px;
+    background-clip: text;
+    background: linear-gradient(to right, #000000 10%, #f0f8ff 50%, #d90368 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 @media only screen and (max-width: 380px) {
   .card-img-overlay {
@@ -631,22 +660,6 @@ hr {
   }
 }
 /* Mixin */
-.ropa-contenedor {
-  display: inline-flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.ropa-contenedor img {
-  width: 200px;
-  height: 200px;
-}
-
-.boton2 {
-  display: inline-block;
-  justify-content: space-around;
-}
-
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
