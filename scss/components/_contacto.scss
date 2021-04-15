@@ -42,3 +42,11 @@
 	background-color: $color-fondo;
 	color: $color-texto1;
 }
+
+.copyright {
+	align-content: flex-end;
+	background-color: $color-texto3 !important;
+	color: $color-texto1;
+	text-align: center;
+	margin: auto;
+}

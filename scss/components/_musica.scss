@@ -1,82 +1,81 @@
 /* Musica */
 
 .musicaFondo {
-	background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
-	@extend %fondo-img;
-	border-bottom: 3px solid $color-texto2;
+  background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
+  @extend %fondo-img;
+  border-bottom: 3px solid $color-texto2;
 }
 
 .musicaContainer {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.videoContainer div {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+.videoContainer iframe {
+  width: 100%;
+  height: 250px;
 }
 
 .div-imagen {
-	position: relative;
+  position: relative;
 
-	img {
-		width: 290px;
-		height: 290px;
-		margin: 5px 5px;
-	}
+  img {
+    width: 100%;
+    height: 290px;
+    margin: 5px 5px;
+  }
 
-	div {
-		ol {
-			font-size: 14px;
-			font-family: sans-serif;
-			text-align: center !important;
-			color: $color-texto1;
-			margin: 5px;
-			z-index: -1;
-			position: absolute;
-			flex-direction: column;
-		}
-	}
+  div {
+    ol {
+      font-size: 14px;
+      font-family: sans-serif;
+      text-align: center !important;
+      color: $color-texto1;
+      margin: 5px;
+      z-index: -1;
+      position: absolute;
+      flex-direction: column;
+    }
+  }
 }
 
 .desvanecer {
-	&:hover {
-		transform: scale(1.1);
-		transition: all 0.5s;
-		opacity: 0.10;
-	}
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    opacity: 0.1;
+  }
 }
 
 .modal-fondo {
-	background-color: $color-texto3 !important;
-	border: 3px solid $color-texto2;
+  background-color: $color-texto3 !important;
+  border: 3px solid $color-texto2;
 }
 
 .modal-title {
-	font-size: 20px;
-	font-family: 'Didact Gothic', sans-serif !important;
-	color: $color-texto1 !important;
-	text-align: center !important;
+  font-size: 20px;
+  font-family: "Didact Gothic", sans-serif !important;
+  color: $color-texto1 !important;
+  text-align: center !important;
 }
 
 .logo-spotify {
-	background-color: $color-texto2;
-	border: 2px solid $color-texto2 !important;
-	width: 25% !important;
-	height: 25% !important;
-	cursor: pointer;
-	border-radius: 5px !important;
+  background-color: $color-texto2;
+  border: 2px solid $color-texto2 !important;
+  width: 25% !important;
+  height: 25% !important;
+  cursor: pointer;
+  border-radius: 5px !important;
 }
 
 .logo-spotify:hover {
-	background-color: $color-texto2;
-	border: 2px solid $color-texto3 !important;
-	transition: all 0.2s ease;
+  background-color: $color-texto2;
+  border: 2px solid $color-texto3 !important;
+  transition: all 0.2s ease;
 }
 
 .filtroLista a {
-	font-size: 35px !important;
-	padding: 0 10px;
+  font-size: 35px !important;
+  padding: 0 10px;
 }

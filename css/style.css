@@ -287,17 +287,16 @@ hr {
   flex-wrap: wrap;
 }
 
-.videoContainer div {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.videoContainer iframe {
+  width: 100%;
+  height: 250px;
 }
 
 .div-imagen {
   position: relative;
 }
 .div-imagen img {
-  width: 290px;
+  width: 100%;
   height: 290px;
   margin: 5px 5px;
 }
@@ -490,6 +489,14 @@ hr {
   color: #f0f8ff;
 }
 
+.copyright {
+  align-content: flex-end;
+  background-color: #000000 !important;
+  color: #f0f8ff;
+  text-align: center;
+  margin: auto;
+}
+
 /* Filtros */
 .filtroLista {
   display: flex;
@@ -518,23 +525,23 @@ hr {
 /*== 992px ==*/
 @media only screen and (min-width: 100px) and (max-width: 992px) {
   .fotoPortada {
-    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+    background-image: url("../img/principal/celu.jpg");
   }
 
   .fechasBackground {
-    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+    background-image: url("../img/principal/celu.jpg");
   }
 
   .musicaFondo {
-    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+    background-image: url("../img/principal/celu.jpg");
   }
 
   .galeriaBackground {
-    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+    background-image: url("../img/principal/celu.jpg");
   }
 
   .tiendaBackground {
-    background-image: url(https://streetcommunication.com/wp-content/uploads/2020/09/pure-black-background-f82588d3.jpg);
+    background-image: url("../img/principal/celu.jpg");
   }
 
   .tituloInicio {
