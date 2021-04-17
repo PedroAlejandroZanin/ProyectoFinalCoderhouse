@@ -1,25 +1,24 @@
-
 /* Galeria */
 
 .galeriaBackground {
-	background-image: url(https://pp.userapi.com/c847122/v847122124/e7c38/9B1oFakcZPo.jpg);
-	@extend %fondo-img;
-	border-bottom: 3px solid $color-texto2;
+  background-image: url(https://pp.userapi.com/c847122/v847122124/e7c38/9B1oFakcZPo.jpg);
+  @extend %fondo-img;
+  border-bottom: 3px solid $color-texto2;
 }
 .galeriaContainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	img {
-		margin: 5px;
-		width: 300px;
-		height: 450px;
-	}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  img {
+    margin: 5px;
+    width: 300px;
+    height: 450px;
+  }
 }
 .imageGaleria {
-	filter: grayscale(100%);
-	&:hover {
-		transition: all 0.5s;
-		filter: grayscale(0);
-	}
+  filter: grayscale(100%);
+  &:hover {
+    transition: all 0.5s;
+    filter: grayscale(0);
+  }
 }

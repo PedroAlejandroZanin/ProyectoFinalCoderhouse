@@ -1,24 +1,24 @@
 /* Filtros */
 
 .filtroLista {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	li {
-		display: inline-block;
-		margin: 30px 5px;
-	}
-	a {
-		font-size: 40px;
-		color: $color-texto1;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-family: "radiofont";
-		display: inline-block;
-		&:hover {
-			color: $color-texto3;
-			background-color: $color-texto1;
-			transition: all 0.5s ease;
-		}
-	}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    display: inline-block;
+    margin: 30px 5px;
+  }
+  a {
+    font-size: 40px;
+    color: $color-texto1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "radiofont";
+    display: inline-block;
+    &:hover {
+      color: $color-texto3;
+      background-color: $color-texto1;
+      transition: all 0.5s ease;
+    }
+  }
 }

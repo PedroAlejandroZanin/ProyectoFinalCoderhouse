@@ -1,52 +1,61 @@
 /* Contacto */
 
 .redes {
-	padding: 50px 20px;
+  padding: 50px 20px;
 }
 .suscribirse {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contacto {
-	color: $color-texto2 !important;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: center;
-	margin: 15px 0;
-	i { margin: 0 15px;
-		&:hover {
-			color: $color-texto1;
-			transition: all 0.2s;
-		}
-	}
+  color: $color-texto2 !important;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  i {
+    margin: 0 15px;
+    &:hover {
+      color: $color-texto1;
+      transition: all 0.2s;
+    }
+  }
 }
 .boton {
-	border: 1px solid $color-texto2;
-	background-color: $color-texto3;
-	padding: 10px;
-	color: $color-texto1;
-	font-family: 'Didact Gothic', sans-serif;
-	font-size: 15;
-	&:hover {
-		background-color: $color-texto1;
-		transition: all 0.5s ease;
-		color: $color-texto3;
-		border: 1px solid $color-texto2;
-	}
+  border: 1px solid $color-texto2;
+  border-radius: 5px;
+  background-color: $color-texto2;
+  padding: 8px;
+  color: $color-texto1;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 13px;
+  &:hover {
+    border: 1px solid $color-texto2;
+    background: radial-gradient(circle, $color-texto2 0%, $color-texto3 100%);
+    color: $color-texto1;
+  }
 }
-.box {
-	padding: 10px;
-	border: 1px solid $color-texto2;
-	background-color: $color-fondo;
-	color: $color-texto1;
+
+.suscribirse .box,
+.boton-sus {
+  border: 1px solid $color-texto2;
+  background-color: $color-texto3;
+  color: $color-texto1;
+  padding: 10px;
+}
+
+.boton-sus:hover {
+  color: $color-texto3;
+  background-color: $color-texto1;
+  transition: all 0.5s;
 }
 
 .copyright {
-	align-content: flex-end;
-	background-color: $color-texto3 !important;
-	color: $color-texto1;
-	text-align: center;
-	margin: auto;
+  align-content: flex-end;
+  background-color: $color-texto3 !important;
+  color: $color-texto1;
+  text-align: center;
+  margin: auto;
 }

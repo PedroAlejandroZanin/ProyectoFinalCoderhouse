@@ -1,34 +1,18 @@
 /* Media Queries*/
 
 /*== 992px ==*/
-@media only screen and (min-width: 100px) and (max-width: 992px) {
-  .fotoPortada {
-    background-image: url("../img/principal/celu.jpg");
-    @extend %fondo-img;
-  }
-
-  .fechasBackground {
-    background-image: url("../img/principal/celu.jpg");
-    @extend %fondo-img;
-  }
-
-  .musicaFondo {
-    background-image: url("../img/principal/celu.jpg");
-    @extend %fondo-img;
-  }
-
-  .galeriaBackground {
-    background-image: url("../img/principal/celu.jpg");
-    @extend %fondo-img;
-  }
-
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .fotoPortada,
+  .fechasBackground,
+  .musicaFondo,
+  .galeriaBackground,
   .tiendaBackground {
     background-image: url("../img/principal/celu.jpg");
     @extend %fondo-img;
   }
 
   .tituloInicio {
-    font-size: 5em;
+    font-size: 20vw;
     background-clip: text;
     background: linear-gradient(
       to right,
@@ -42,7 +26,7 @@
   }
 
   .tituloSeccion {
-    font-size: 60px;
+    font-size: 17vw;
     background-clip: text;
     background: linear-gradient(
       to right,
@@ -61,12 +45,12 @@
 
   .filtroLista {
     a {
-      font-size: 30px;
+      font-size: 25px !important;
     }
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .navbar-collapse a {
     background-color: $fondo-transparente !important;
   }
@@ -99,12 +83,16 @@
     display: block;
     margin: -10px auto;
     height: 100%;
-    width: 100%;
+    width: 80%;
   }
-
   .container-netflix iframe {
     width: 100%;
     height: 235px;
+  }
+  .enlaces {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
   }
 }
 
@@ -140,32 +128,32 @@
     }
   }
 
-  .tituloInicio {
-    font-size: 5em;
-    background-clip: text;
-    background: linear-gradient(
-      to right,
-      $color-texto3 10%,
-      $color-texto1 50%,
-      $color-texto2 75%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 1;
-  }
+  // .tituloInicio {
+  //   font-size: 5em;
+  //   background-clip: text;
+  //   background: linear-gradient(
+  //     to right,
+  //     $color-texto3 10%,
+  //     $color-texto1 50%,
+  //     $color-texto2 75%
+  //   );
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  //   opacity: 1;
+  // }
 
-  .tituloSeccion {
-    font-size: 60px;
-    background-clip: text;
-    background: linear-gradient(
-      to right,
-      $color-texto3 10%,
-      $color-texto1 50%,
-      $color-texto2 75%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+  // .tituloSeccion {
+  //   font-size: 60px;
+  //   background-clip: text;
+  //   background: linear-gradient(
+  //     to right,
+  //     $color-texto3 10%,
+  //     $color-texto1 50%,
+  //     $color-texto2 75%
+  //   );
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+  // }
 }
 
 @media only screen and (max-width: 380px) {

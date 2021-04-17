@@ -111,7 +111,7 @@ hr {
 .logo-start img {
   height: 65px;
   width: 70px;
-  background-color: none !important;
+  background-color: none;
 }
 
 /* Inicio */
@@ -283,7 +283,7 @@ hr {
 
 .musicaContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -376,7 +376,7 @@ hr {
 
 /* Tienda */
 .tiendaBackground {
-  background-image: url("../img/principal/rainy.jpg");
+  background-image: url("../img/principal/store-bg.png");
   border-bottom: 3px solid #d90368;
 }
 
@@ -418,26 +418,10 @@ hr {
   margin: 10px 0;
 }
 .item-tienda p {
-  font-size: 16px;
+  font-size: 15px;
   padding: 5px 10px;
   color: #f0f8ff;
   font-family: "Didact Gothic", sans-serif;
-}
-
-.boton {
-  font-size: 12px !important;
-  letter-spacing: 1px;
-  color: #f0f8ff;
-  background-color: #d90368 !important;
-  border: 1px solid #d90368 !important;
-  border-radius: 5px !important;
-}
-
-.boton:hover {
-  color: #f0f8ff !important;
-  background: radial-gradient(circle, #d90368 0%, #000000 100%);
-  border: 1px solid #d90368 !important;
-  transition: all 0.3s ease !important;
 }
 
 /* Contacto */
@@ -469,24 +453,31 @@ hr {
 
 .boton {
   border: 1px solid #d90368;
-  background-color: #000000;
-  padding: 10px;
+  border-radius: 5px;
+  background-color: #d90368;
+  padding: 8px;
   color: #f0f8ff;
   font-family: "Didact Gothic", sans-serif;
-  font-size: 15;
+  font-size: 13px;
 }
 .boton:hover {
-  background-color: #f0f8ff;
-  transition: all 0.5s ease;
-  color: #000000;
   border: 1px solid #d90368;
+  background: radial-gradient(circle, #d90368 0%, #000000 100%);
+  color: #f0f8ff;
 }
 
-.box {
-  padding: 10px;
+.suscribirse .box,
+.boton-sus {
   border: 1px solid #d90368;
-  background-color: #0e0d0d;
+  background-color: #000000;
   color: #f0f8ff;
+  padding: 10px;
+}
+
+.boton-sus:hover {
+  color: #000000;
+  background-color: #f0f8ff;
+  transition: all 0.5s;
 }
 
 .copyright {
@@ -523,29 +514,17 @@ hr {
 
 /* Media Queries*/
 /*== 992px ==*/
-@media only screen and (min-width: 100px) and (max-width: 992px) {
-  .fotoPortada {
-    background-image: url("../img/principal/celu.jpg");
-  }
-
-  .fechasBackground {
-    background-image: url("../img/principal/celu.jpg");
-  }
-
-  .musicaFondo {
-    background-image: url("../img/principal/celu.jpg");
-  }
-
-  .galeriaBackground {
-    background-image: url("../img/principal/celu.jpg");
-  }
-
-  .tiendaBackground {
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .fotoPortada,
+.fechasBackground,
+.musicaFondo,
+.galeriaBackground,
+.tiendaBackground {
     background-image: url("../img/principal/celu.jpg");
   }
 
   .tituloInicio {
-    font-size: 5em;
+    font-size: 20vw;
     background-clip: text;
     background: linear-gradient(to right, #000000 16%, #f0f8ff 50%, #d90368 75%);
     -webkit-background-clip: text;
@@ -554,7 +533,7 @@ hr {
   }
 
   .tituloSeccion {
-    font-size: 60px;
+    font-size: 17vw;
     background-clip: text;
     background: linear-gradient(to right, #000000 20%, #f0f8ff 50%, #d90368 75%);
     -webkit-background-clip: text;
@@ -567,10 +546,10 @@ hr {
   }
 
   .filtroLista a {
-    font-size: 30px;
+    font-size: 25px !important;
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .navbar-collapse a {
     background-color: rgba(0, 0, 0, 0.45) !important;
   }
@@ -601,12 +580,18 @@ hr {
     display: block;
     margin: -10px auto;
     height: 100%;
-    width: 100%;
+    width: 80%;
   }
 
   .container-netflix iframe {
     width: 100%;
     height: 235px;
+  }
+
+  .enlaces {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -634,23 +619,6 @@ hr {
     flex-flow: column nowrap;
     margin: 10px 0;
     margin-left: 25%;
-  }
-
-  .tituloInicio {
-    font-size: 5em;
-    background-clip: text;
-    background: linear-gradient(to right, #000000 10%, #f0f8ff 50%, #d90368 75%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 1;
-  }
-
-  .tituloSeccion {
-    font-size: 60px;
-    background-clip: text;
-    background: linear-gradient(to right, #000000 10%, #f0f8ff 50%, #d90368 75%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 }
 @media only screen and (max-width: 380px) {

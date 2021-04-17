@@ -1,104 +1,103 @@
 /* Inicio */
 
 .tituloInicio {
-	color: $color-texto1 !important;
-	font-family: "radiofont";
-	font-size: 12.5vw;
-	padding: 1.5em;
-	opacity: 0;
-	&:hover {
-		transform: scale(1);
-		transition: all 2s ease;
-		opacity: 1;
-	}
+  color: $color-texto1 !important;
+  font-family: "radiofont";
+  font-size: 12.5vw;
+  padding: 1.5em;
+  opacity: 0;
+  &:hover {
+    transform: scale(1);
+    transition: all 2s ease;
+    opacity: 1;
+  }
 }
 .fotoPortada {
-	background-image: url(https://wallsdesk.com/wp-content/uploads/2017/01/Radiohead-Wallpapers-HD.jpg);
-	@extend %fondo-img;
+  background-image: url(https://wallsdesk.com/wp-content/uploads/2017/01/Radiohead-Wallpapers-HD.jpg);
+  @extend %fondo-img;
 }
 .cardInicio {
-	&:hover {
-		border: 1px solid $color-texto2;
-		transition: all 0.2s ease;
-	}
+  &:hover {
+    border: 1px solid $color-texto2;
+    transition: all 0.2s ease;
+  }
 }
 .card-img-overlay {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	p {
-		font-family: 'Didact Gothic', sans-serif;
-		background-color: $fondo-transparente;
-		padding: 15px;
-		text-decoration: none;
-		color: $color-texto1;
-		&:hover {
-			background-color: $color-texto3;
-			color: $color-texto2;
-			transform: scale(1.04);
-			transition: all 0.5s ease;
-		}
-	}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-family: "Didact Gothic", sans-serif;
+    background-color: $fondo-transparente;
+    padding: 15px;
+    text-decoration: none;
+    color: $color-texto1;
+    &:hover {
+      background-color: $color-texto3;
+      color: $color-texto2;
+      transform: scale(1.04);
+      transition: all 0.5s ease;
+    }
+  }
 }
 .containerAnima {
-	background-image: url("../img/principal/thomAnima.jpg");
-	@extend %fondo-img;
-	padding: 1.5em;
-	margin: 50px 30px;
+  background-image: url("../img/principal/thomAnima.jpg");
+  @extend %fondo-img;
+  padding: 1.5em;
+  margin: 50px 30px;
 }
 .container-netflix {
-	background-image: url("../img/principal/anima-paul.jpg");
-	@extend %fondo-img;
-	padding: 1.5em;
-	margin: 50px 30px;
+  background-image: url("../img/principal/anima-paul.jpg");
+  @extend %fondo-img;
+  padding: 1.5em;
+  margin: 50px 30px;
 }
 .videoanima {
-	width: 560px;
-	height: 315px;
-	margin: 112px 0px;
-
-  }
+  width: 560px;
+  height: 315px;
+  margin: 112px 0px;
+}
 .containerEarth {
-	background-image: url("../img/principal/eob-earth.jpg");
-	@extend %fondo-img;
-	padding: 1.5em;
-	margin: 50px 30px;
+  background-image: url("../img/principal/eob-earth.jpg");
+  @extend %fondo-img;
+  padding: 1.5em;
+  margin: 50px 30px;
 }
 .containerYouNever {
-	background-image: url("../img/principal/jonny-younever.jpg");
-	@extend %fondo-img;
-	padding: 1.5em;
-	margin: 50px 30px;
+  background-image: url("../img/principal/jonny-younever.jpg");
+  @extend %fondo-img;
+  padding: 1.5em;
+  margin: 50px 30px;
 }
 .containerOk {
-	background-image: url("../img/principal/ok-computer.jpg");
-	@extend %fondo-img;
-	padding: 1.5em;
-	margin: 50px 30px;
+  background-image: url("../img/principal/ok-computer.jpg");
+  @extend %fondo-img;
+  padding: 1.5em;
+  margin: 50px 30px;
 }
 .animaTexto {
-	color: $color-texto1;
-	font-family: 'Didact Gothic', sans-serif;
-	font-size: 20px;
-	align-self: center;
-	background-color: $fondo-transparente;
-	padding: 15px 15px;
+  color: $color-texto1;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 20px;
+  align-self: center;
+  background-color: $fondo-transparente;
+  padding: 15px 15px;
 }
 .animaFondo {
-	transition: all 0.3s ease;
-	width: 350px;
-	height: 350px;
-	margin: 100px 0;
-	&:hover {
-		box-shadow: 1px 1px 7px 1px $color-texto1;
-		transition: all 0.3s ease;
-	}
+  transition: all 0.3s ease;
+  width: 350px;
+  height: 350px;
+  margin: 100px 0;
+  &:hover {
+    box-shadow: 1px 1px 7px 1px $color-texto1;
+    transition: all 0.3s ease;
+  }
 }
 
 .enlaces a img {
-	padding: 3px;
-	width: 35%;
-	height: 35%;
+  padding: 3px;
+  width: 35%;
+  height: 35%;
 }
 
 // .enlaces img:hover {

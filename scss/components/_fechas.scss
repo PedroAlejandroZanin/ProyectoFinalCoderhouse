@@ -1,57 +1,55 @@
 /* Fechas */
 
 .fechasBackground {
-	background-image: url("../img/principal/street.jpg");
-	@extend %fondo-img;
-	border-bottom: 3px solid $color-texto2;
+  background-image: url("../img/principal/street.jpg");
+  @extend %fondo-img;
+  border-bottom: 3px solid $color-texto2;
 }
 .cardContainer {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	// background-image: url("../img/principal/cielo.png") !important;
-	background-position: center;
-	background-repeat: repeat;
-	background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 .card-tour {
-	font-family: 'Didact Gothic', sans-serif;
-	text-align: center;
-	margin: 10px;
-	h5 {
-		font-family: "radiofont";
-		text-align: center;
-		font-size: 35px;
-		color: $color-texto2;
-		letter-spacing: 1px;
-	}
-	p {
-		font-family: 'Didact Gothic', sans-serif;
-		font-size: 10px;
-	}
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+  margin: 10px;
+  h5 {
+    font-family: "radiofont";
+    text-align: center;
+    font-size: 35px;
+    color: $color-texto2;
+    letter-spacing: 1px;
+  }
+  p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 10px;
+  }
 }
 .card-link {
-	color: $color-texto1;
-	text-decoration: none;
-	&:hover {
-		background-color: $color-texto1 !important;
-		color: $color-texto3 !important;
-		padding: 5px;
-	}
+  color: $color-texto1;
+  text-decoration: none;
+  &:hover {
+    background-color: $color-texto1 !important;
+    color: $color-texto3 !important;
+    padding: 5px;
+  }
 }
 .card-img-top {
-	width: 200px;
-	height: 300px;
-	&:hover {
-		box-shadow: 1px 1px 25px 1px $color-texto2;
-		transition: all 0.2s ease;
-	}
+  width: 200px;
+  height: 300px;
+  &:hover {
+    box-shadow: 1px 1px 25px 1px $color-texto2;
+    transition: all 0.2s ease;
+  }
 }
 .list-group-item {
-	&:hover {
-		// box-shadow: 1px 1px 7px 1px $color-texto2;
-		transition: all 0.2s ease;
-		background-color: $color-texto2 !important;
-		color: $color-texto3 !important;
-	}
+  &:hover {
+    transition: all 0.2s ease;
+    background-color: $color-texto2 !important;
+    color: $color-texto3 !important;
+  }
 }

@@ -1,51 +1,50 @@
 /* Texto / Color */
 
 body {
-	background-color: $color-fondo;
+  background-color: $color-fondo;
 }
 
 .fondo-transparente {
-	background-color: $fondo-transparente;
-	margin: 30px;
-	padding: 15px;
+  background-color: $fondo-transparente;
+  margin: 30px;
+  padding: 15px;
 }
 
 .tituloSeccion {
-	color: $color-texto1;
-	font-family: "radiofont";
-	font-size: 7vw;
-	padding: 2em;
+  color: $color-texto1;
+  font-family: "radiofont";
+  font-size: 7vw;
+  padding: 2em;
 }
 
 h1 {
-	display: flex;
-    justify-content: center;
-    align-self: center;
-    font-family: "radiofont";
-    font-size: 90px;
-    text-align: center;
-	color: $color-texto1;
-	text-transform: uppercase;
- }
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: "radiofont";
+  font-size: 90px;
+  text-align: center;
+  color: $color-texto1;
+  text-transform: uppercase;
+}
 
 h2 {
-	font-size: 40px;
-	color: $color-texto1;
-	font-family: "radiofont";
-	margin: 30px 5px;
-	text-align: center;
+  font-size: 40px;
+  color: $color-texto1;
+  font-family: "radiofont";
+  margin: 30px 5px;
+  text-align: center;
 }
 
 h3 {
-	font-size: 16px;
-	color: $color-texto1;
-	font-family: 'Didact Gothic', sans-serif;
-	margin: 15px 0px;
-	text-align: center;
+  font-size: 16px;
+  color: $color-texto1;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 15px 0px;
+  text-align: center;
 }
 
 hr {
-	color: $color-texto2;
-	margin: 0px 30px;
+  color: $color-texto2;
+  margin: 0px 30px;
 }
-
