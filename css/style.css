@@ -352,7 +352,7 @@ hr {
 
 /* Galeria */
 .galeriaBackground {
-  background-image: url(https://pp.userapi.com/c847122/v847122124/e7c38/9B1oFakcZPo.jpg);
+  background-image: url("../img/principal/thomcam.jpg");
   border-bottom: 3px solid #d90368;
 }
 
@@ -515,15 +515,32 @@ hr {
 
 /* Media Queries*/
 /*== 992px ==*/
-@media only screen and (min-width: 100px) and (max-width: 768px) {
-  .fotoPortada,
-.fechasBackground,
-.musicaFondo,
-.galeriaBackground,
-.tiendaBackground {
-    background-image: url("../img/principal/celu.jpg");
+@media only screen and (max-width: 768px) {
+  .musicaFondo {
+    background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
   }
-
+}
+@media only screen and (max-width: 768px) and (max-width: 768px) {
+  .fotoPortada {
+    background-image: url("../img/principal/portada-inicio-sm.png");
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 768px) {
+  .fechasBackground {
+    background-image: url("../img/principal/fecha-sm-bg.png");
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 768px) {
+  .tiendaBackground {
+    background-image: url("../img/principal/tienda-bg-sm.png");
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 768px) {
+  .galeriaBackground {
+    background-image: url("../img/principal/galeria-bg-sm.png");
+  }
+}
+@media only screen and (max-width: 768px) {
   .tituloInicio {
     font-size: 20vw;
     background-clip: text;
@@ -532,7 +549,8 @@ hr {
     -webkit-text-fill-color: transparent;
     opacity: 1;
   }
-
+}
+@media only screen and (max-width: 768px) {
   .tituloSeccion {
     font-size: 17vw;
     background-clip: text;
@@ -540,17 +558,19 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+}
+@media only screen and (max-width: 768px) {
   h2 {
     color: #d90368;
     font-size: 40px;
   }
-
+}
+@media only screen and (max-width: 768px) {
   .filtroLista a {
     font-size: 25px !important;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 990px) {
   .navbar-collapse a {
     background-color: rgba(0, 0, 0, 0.45) !important;
   }
@@ -561,7 +581,7 @@ hr {
     transition: all 0.5s ease;
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
   .navbar-toggler {
     background-color: #000000;
   }
@@ -573,7 +593,7 @@ hr {
   }
 }
 /*== 768px ==*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .containerAnima img,
 .containerEarth img,
 .containerYouNever img,
@@ -595,7 +615,7 @@ hr {
     width: 80%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .filtroLista li {
     text-align: center !important;
     display: block;
@@ -604,7 +624,7 @@ hr {
   }
 }
 /*== 370px ==*/
-@media only screen and (max-width: 380px) {
+@media only screen and (min-width: 480px) {
   footer .contacto {
     display: flex;
     justify-content: center;

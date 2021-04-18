@@ -1,14 +1,33 @@
 /* Media Queries*/
 
 /*== 992px ==*/
-@media only screen and (min-width: 100px) and (max-width: 768px) {
-  .fotoPortada,
-  .fechasBackground,
-  .musicaFondo,
-  .galeriaBackground,
-  .tiendaBackground {
-    background-image: url("../img/principal/celu.jpg");
+@media only screen and (max-width: 768px) {
+  .musicaFondo {
+    background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
     @extend %fondo-img;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .fotoPortada {
+      background-image: url("../img/principal/portada-inicio-sm.png");
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .fechasBackground {
+      background-image: url("../img/principal/fecha-sm-bg.png");
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .tiendaBackground {
+      background-image: url("../img/principal/tienda-bg-sm.png");
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .galeriaBackground {
+      background-image: url("../img/principal/galeria-bg-sm.png");
+    }
   }
 
   .tituloInicio {
@@ -50,7 +69,7 @@
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 990px) {
   .navbar-collapse a {
     background-color: $fondo-transparente !important;
   }
@@ -62,7 +81,7 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
   .navbar-toggler {
     background-color: $color-texto3;
   }
@@ -75,7 +94,7 @@
 }
 
 /*== 768px ==*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .containerAnima img,
   .containerEarth img,
   .containerYouNever img,
@@ -96,7 +115,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .filtroLista li {
     text-align: center !important;
     display: block;
@@ -106,7 +125,7 @@
 }
 
 /*== 370px ==*/
-@media only screen and (max-width: 380px) {
+@media only screen and (min-width: 480px) {
   footer {
     .contacto {
       display: flex;
