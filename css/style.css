@@ -593,7 +593,7 @@ hr {
   }
 }
 /*== 768px ==*/
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .containerAnima img,
 .containerEarth img,
 .containerYouNever img,
@@ -615,7 +615,7 @@ hr {
     width: 80%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .filtroLista li {
     text-align: center !important;
     display: block;
