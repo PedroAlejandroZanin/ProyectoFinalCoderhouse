@@ -514,7 +514,7 @@ hr {
 }
 
 /* Media Queries*/
-/*== 992px ==*/
+/*== 768px ==*/
 @media only screen and (max-width: 768px) {
   .musicaFondo {
     background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
@@ -552,7 +552,7 @@ hr {
 }
 @media only screen and (max-width: 768px) {
   .tituloSeccion {
-    font-size: 17vw;
+    font-size: 14vw;
     background-clip: text;
     background: linear-gradient(to right, #000000 20%, #f0f8ff 50%, #d90368 75%);
     -webkit-background-clip: text;
