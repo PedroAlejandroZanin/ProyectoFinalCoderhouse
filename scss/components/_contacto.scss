@@ -23,20 +23,6 @@
     }
   }
 }
-.boton {
-  border: 1px solid $color-texto2;
-  border-radius: 5px;
-  background-color: $color-texto2;
-  padding: 8px;
-  color: $color-texto1;
-  font-family: "Didact Gothic", sans-serif;
-  font-size: 13px;
-  &:hover {
-    border: 1px solid $color-texto2;
-    background: radial-gradient(circle, $color-texto2 0%, $color-texto3 100%);
-    color: $color-texto1;
-  }
-}
 
 .suscribirse .box,
 .boton-sus {

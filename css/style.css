@@ -54,8 +54,9 @@ h2 {
   font-size: 40px;
   color: #f0f8ff;
   font-family: "radiofont";
-  margin: 30px 5px;
   text-align: center;
+  margin: 40px 0;
+  width: 100%;
 }
 
 h3 {
@@ -424,6 +425,21 @@ hr {
   font-family: "Didact Gothic", sans-serif;
 }
 
+.boton {
+  border: 1px solid #d90368;
+  border-radius: 5px;
+  background-color: #d90368;
+  padding: 8px;
+  color: #f0f8ff;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 13px;
+}
+.boton:hover {
+  border: 1px solid #d90368;
+  background: radial-gradient(circle, #d90368 0%, #000000 100%);
+  color: #f0f8ff;
+}
+
 /* Contacto */
 .redes {
   padding: 50px 20px;
@@ -449,21 +465,6 @@ hr {
 .contacto i:hover {
   color: #f0f8ff;
   transition: all 0.2s;
-}
-
-.boton {
-  border: 1px solid #d90368;
-  border-radius: 5px;
-  background-color: #d90368;
-  padding: 8px;
-  color: #f0f8ff;
-  font-family: "Didact Gothic", sans-serif;
-  font-size: 13px;
-}
-.boton:hover {
-  border: 1px solid #d90368;
-  background: radial-gradient(circle, #d90368 0%, #000000 100%);
-  color: #f0f8ff;
 }
 
 .suscribirse .box,
