@@ -13,9 +13,16 @@
   }
 }
 .fotoPortada {
-  background-image: url(https://wallsdesk.com/wp-content/uploads/2017/01/Radiohead-Wallpapers-HD.jpg);
+  background-image: url("../img/principal/portada-inicio.jpg");
   @extend %fondo-img;
 }
+
+.cardInicio {
+  width: 95%;
+  margin: 50px auto;
+}
+
+
 .cardInicio {
   &:hover {
     border: 1px solid $color-texto2;

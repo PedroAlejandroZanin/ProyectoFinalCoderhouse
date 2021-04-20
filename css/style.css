@@ -130,7 +130,12 @@ hr {
 }
 
 .fotoPortada {
-  background-image: url(https://wallsdesk.com/wp-content/uploads/2017/01/Radiohead-Wallpapers-HD.jpg);
+  background-image: url("../img/principal/portada-inicio.jpg");
+}
+
+.cardInicio {
+  width: 95%;
+  margin: 50px auto;
 }
 
 .cardInicio:hover {
@@ -221,7 +226,7 @@ hr {
 
 /* Fechas */
 .fechasBackground {
-  background-image: url("../img/principal/street.jpg");
+  background-image: url("../img/principal/tour-lg.png");
   border-bottom: 3px solid #d90368;
 }
 
@@ -377,7 +382,7 @@ hr {
 
 /* Tienda */
 .tiendaBackground {
-  background-image: url("../img/principal/store-bg.png");
+  background-image: url("../img/principal/store-lg.png");
   border-bottom: 3px solid #d90368;
 }
 
@@ -514,33 +519,33 @@ hr {
 }
 
 /* Media Queries*/
-/*== 768px ==*/
-@media only screen and (max-width: 768px) {
+/*== 1200px ==*/
+@media only screen and (max-width: 1200px) {
   .musicaFondo {
-    background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
+    background-image: url("../img/principal/celu.jpg");
   }
 }
-@media only screen and (max-width: 768px) and (max-width: 768px) {
+@media only screen and (max-width: 1200px) and (max-width: 1200px) {
   .fotoPortada {
-    background-image: url("../img/principal/portada-inicio-sm.png");
+    background-image: url("../img/principal/celu.jpg");
   }
 }
-@media only screen and (max-width: 768px) and (max-width: 768px) {
+@media only screen and (max-width: 1200px) and (max-width: 1200px) {
   .fechasBackground {
-    background-image: url("../img/principal/fecha-sm-bg.png");
+    background-image: url("../img/principal/celu.jpg");
   }
 }
-@media only screen and (max-width: 768px) and (max-width: 768px) {
+@media only screen and (max-width: 1200px) and (max-width: 1200px) {
   .tiendaBackground {
-    background-image: url("../img/principal/tienda-bg-sm.png");
+    background-image: url("../img/principal/celu.jpg");
   }
 }
-@media only screen and (max-width: 768px) and (max-width: 768px) {
+@media only screen and (max-width: 1200px) and (max-width: 768px) {
   .galeriaBackground {
-    background-image: url("../img/principal/galeria-bg-sm.png");
+    background-image: url("../img/principal/celu.jpg");
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .tituloInicio {
     font-size: 20vw;
     background-clip: text;
@@ -550,7 +555,7 @@ hr {
     opacity: 1;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .tituloSeccion {
     font-size: 14vw;
     background-clip: text;
@@ -559,17 +564,18 @@ hr {
     -webkit-text-fill-color: transparent;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   h2 {
     color: #d90368;
     font-size: 40px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .filtroLista a {
     font-size: 25px !important;
   }
 }
+/*== 990px ==*/
 @media only screen and (max-width: 990px) {
   .navbar-collapse a {
     background-color: rgba(0, 0, 0, 0.45) !important;
@@ -593,7 +599,7 @@ hr {
   }
 }
 /*== 768px ==*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 990px) {
   .containerAnima img,
 .containerEarth img,
 .containerYouNever img,
@@ -601,12 +607,13 @@ hr {
     display: block;
     margin: -10px auto;
     height: 100%;
-    width: 80%;
+    width: 95%;
   }
 
   .container-netflix iframe {
     width: 100%;
     height: 235px;
+    margin: 0 auto;
   }
 
   .enlaces {
@@ -624,7 +631,7 @@ hr {
   }
 }
 /*== 370px ==*/
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   footer .contacto {
     display: flex;
     justify-content: center;
