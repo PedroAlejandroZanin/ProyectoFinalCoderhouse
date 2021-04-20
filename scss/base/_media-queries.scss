@@ -1,35 +1,8 @@
 /* Media Queries*/
 
 /*== 1200px ==*/
+
 @media only screen and (max-width: 1200px) {
-  .musicaFondo {
-    background-image: url("../img/principal/celu.jpg");
-    @extend %fondo-img;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    .fotoPortada {
-      background-image: url("../img/principal/celu.jpg");
-    }
-  }
-  @media only screen and (max-width: 1200px) {
-    .fechasBackground {
-      background-image: url("../img/principal/celu.jpg");
-    }
-  }
-
-  @media only screen and (max-width: 1200px) {
-    .tiendaBackground {
-      background-image: url("../img/principal/celu.jpg");
-    }
-  }
-
-  @media only screen and (max-width: 768px) {
-    .galeriaBackground {
-      background-image: url("../img/principal/celu.jpg");
-    }
-  }
-
   .tituloInicio {
     font-size: 20vw;
     background-clip: text;
@@ -69,10 +42,8 @@
   }
 }
 
-
-/*== 990px ==*/
-
-@media only screen and (max-width: 990px) {
+/*== 991px ==*/
+@media only screen and (max-width: 991px) {
   .navbar-collapse a {
     background-color: $fondo-transparente !important;
   }
@@ -82,9 +53,7 @@
     color: $color-texto3 !important;
     transition: all 0.5s ease;
   }
-}
 
-@media only screen and (max-width: 990px) {
   .navbar-toggler {
     background-color: $color-texto3;
   }
@@ -96,8 +65,9 @@
   }
 }
 
+
 /*== 768px ==*/
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 768px) {
   .containerAnima img,
   .containerEarth img,
   .containerYouNever img,
@@ -107,11 +77,13 @@
     height: 100%;
     width: 95%;
   }
+
   .container-netflix iframe {
     width: 100%;
     height: 235px;
     margin: 0 auto;
   }
+
   .enlaces {
     margin: 0 auto;
     height: 100%;
@@ -119,7 +91,17 @@
   }
 }
 
+/*== 768px ==*/
 @media only screen and (max-width: 768px) {
+  .fotoPortada,
+  .fechasBackground,
+  .musicaFondo,
+  .galeriaBackground,
+  .tiendaBackground {
+    background-image: url("../img/principal/celu.jpg");
+    @extend %fondo-img;
+  }
+  
   .filtroLista li {
     text-align: center !important;
     display: block;
@@ -128,7 +110,7 @@
   }
 }
 
-/*== 370px ==*/
+/*== 480px ==*/
 @media only screen and (max-width: 480px) {
   footer {
     .contacto {
@@ -141,54 +123,30 @@
       }
     }
 
-    .suscribirse button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: column nowrap;
-      margin: 10px 0;
-      margin-left: 25%;
+    .suscribirse {
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        margin: 10px 0;
+        margin-left: 25%;
+      }
     }
   }
 
-  // .tituloInicio {
-  //   font-size: 5em;
-  //   background-clip: text;
-  //   background: linear-gradient(
-  //     to right,
-  //     $color-texto3 10%,
-  //     $color-texto1 50%,
-  //     $color-texto2 75%
-  //   );
-  //   -webkit-background-clip: text;
-  //   -webkit-text-fill-color: transparent;
-  //   opacity: 1;
-  // }
+  /*== 480px ==*/
+  @media only screen and (max-width: 380px) {
+    .card-img-overlay {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
 
-  // .tituloSeccion {
-  //   font-size: 60px;
-  //   background-clip: text;
-  //   background: linear-gradient(
-  //     to right,
-  //     $color-texto3 10%,
-  //     $color-texto1 50%,
-  //     $color-texto2 75%
-  //   );
-  //   -webkit-background-clip: text;
-  //   -webkit-text-fill-color: transparent;
-  // }
-}
-
-@media only screen and (max-width: 380px) {
-  .card-img-overlay {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
-  .card-img-overlay p {
-    font-size: 13px !important;
-    padding: 0;
-    margin: 0;
+    .card-img-overlay p {
+      font-size: 13px !important;
+      padding: 0;
+      margin: 0;
+    }
   }
 }

@@ -51,12 +51,16 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   color: #f0f8ff;
   font-family: "radiofont";
   text-align: center;
   margin: 40px 0;
   width: 100%;
+}
+h2:hover {
+  color: #d90368;
+  transition: all 0.5s;
 }
 
 h3 {
@@ -521,31 +525,6 @@ hr {
 /* Media Queries*/
 /*== 1200px ==*/
 @media only screen and (max-width: 1200px) {
-  .musicaFondo {
-    background-image: url("../img/principal/celu.jpg");
-  }
-}
-@media only screen and (max-width: 1200px) and (max-width: 1200px) {
-  .fotoPortada {
-    background-image: url("../img/principal/celu.jpg");
-  }
-}
-@media only screen and (max-width: 1200px) and (max-width: 1200px) {
-  .fechasBackground {
-    background-image: url("../img/principal/celu.jpg");
-  }
-}
-@media only screen and (max-width: 1200px) and (max-width: 1200px) {
-  .tiendaBackground {
-    background-image: url("../img/principal/celu.jpg");
-  }
-}
-@media only screen and (max-width: 1200px) and (max-width: 768px) {
-  .galeriaBackground {
-    background-image: url("../img/principal/celu.jpg");
-  }
-}
-@media only screen and (max-width: 1200px) {
   .tituloInicio {
     font-size: 20vw;
     background-clip: text;
@@ -554,8 +533,7 @@ hr {
     -webkit-text-fill-color: transparent;
     opacity: 1;
   }
-}
-@media only screen and (max-width: 1200px) {
+
   .tituloSeccion {
     font-size: 14vw;
     background-clip: text;
@@ -563,20 +541,18 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-}
-@media only screen and (max-width: 1200px) {
+
   h2 {
     color: #d90368;
     font-size: 40px;
   }
-}
-@media only screen and (max-width: 1200px) {
+
   .filtroLista a {
     font-size: 25px !important;
   }
 }
-/*== 990px ==*/
-@media only screen and (max-width: 990px) {
+/*== 991px ==*/
+@media only screen and (max-width: 991px) {
   .navbar-collapse a {
     background-color: rgba(0, 0, 0, 0.45) !important;
   }
@@ -586,8 +562,7 @@ hr {
     color: #000000 !important;
     transition: all 0.5s ease;
   }
-}
-@media only screen and (max-width: 990px) {
+
   .navbar-toggler {
     background-color: #000000;
   }
@@ -599,7 +574,7 @@ hr {
   }
 }
 /*== 768px ==*/
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 768px) {
   .containerAnima img,
 .containerEarth img,
 .containerYouNever img,
@@ -622,7 +597,16 @@ hr {
     width: 80%;
   }
 }
+/*== 768px ==*/
 @media only screen and (max-width: 768px) {
+  .fotoPortada,
+.fechasBackground,
+.musicaFondo,
+.galeriaBackground,
+.tiendaBackground {
+    background-image: url("../img/principal/celu.jpg");
+  }
+
   .filtroLista li {
     text-align: center !important;
     display: block;
@@ -630,7 +614,7 @@ hr {
     flex-direction: column;
   }
 }
-/*== 370px ==*/
+/*== 480px ==*/
 @media only screen and (max-width: 480px) {
   footer .contacto {
     display: flex;
@@ -648,8 +632,10 @@ hr {
     margin: 10px 0;
     margin-left: 25%;
   }
+
+  /*== 480px ==*/
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) and (max-width: 380px) {
   .card-img-overlay {
     display: flex;
     justify-content: center;
