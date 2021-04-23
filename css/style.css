@@ -38,6 +38,13 @@ body {
   font-size: 7vw;
   padding: 2em;
 }
+.tituloSeccion:hover {
+  background-clip: text;
+  background: linear-gradient(to right, #000000 20%, #f0f8ff 50%, #d90368 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 2s;
+}
 
 h1 {
   display: flex;
@@ -450,30 +457,8 @@ hr {
 }
 
 /* Contacto */
-.redes {
-  padding: 50px 20px;
-}
-
-.suscribirse {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .contacto {
-  color: #d90368 !important;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  margin: 15px 0;
-}
-.contacto i {
-  margin: 0 15px;
-}
-.contacto i:hover {
-  color: #f0f8ff;
-  transition: all 0.2s;
+  padding: 50px 20px;
 }
 
 .suscribirse .box,
@@ -490,12 +475,21 @@ hr {
   transition: all 0.5s;
 }
 
-.copyright {
-  align-content: flex-end;
-  background-color: #000000 !important;
+form button {
+  margin: 10px auto !important;
+}
+
+.redes {
+  margin: 10px 0;
+}
+.redes i {
+  color: #d90368;
+  margin: 0 15px;
+}
+.redes i:hover {
   color: #f0f8ff;
-  text-align: center;
-  margin: auto;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
 /* Filtros */
@@ -616,12 +610,12 @@ hr {
 }
 /*== 480px ==*/
 @media only screen and (max-width: 480px) {
-  footer .contacto {
+  footer .redes {
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
   }
-  footer .contacto i {
+  footer .redes i {
     margin: 15px 0;
   }
   footer .suscribirse button {

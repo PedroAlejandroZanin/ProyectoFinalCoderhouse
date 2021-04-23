@@ -1,27 +1,7 @@
 /* Contacto */
 
-.redes {
-  padding: 50px 20px;
-}
-.suscribirse {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .contacto {
-  color: $color-texto2 !important;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  margin: 15px 0;
-  i {
-    margin: 0 15px;
-    &:hover {
-      color: $color-texto1;
-      transition: all 0.2s;
-    }
-  }
+  padding: 50px 20px;
 }
 
 .suscribirse .box,
@@ -31,17 +11,25 @@
   color: $color-texto1;
   padding: 10px;
 }
-
 .boton-sus:hover {
   color: $color-texto3;
   background-color: $color-texto1;
   transition: all 0.5s;
 }
 
-.copyright {
-  align-content: flex-end;
-  background-color: $color-texto3 !important;
-  color: $color-texto1;
-  text-align: center;
-  margin: auto;
+form button {
+  margin: 10px auto !important;
+}
+
+.redes {
+  margin: 10px 0;
+  i {
+    color: $color-texto2;
+    margin: 0 15px;
+    &:hover {
+      color: $color-texto1;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+  }
 }
