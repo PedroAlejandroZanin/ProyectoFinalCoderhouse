@@ -1,7 +1,11 @@
 /* Inicio */
 
 .tituloInicio {
-  color: $color-texto1 !important;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  color: $color-texto1;
   font-family: "radiofont";
   font-size: 12.5vw;
   padding: 1.5em;
