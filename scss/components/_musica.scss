@@ -1,7 +1,7 @@
 /* Musica */
 
 .musicaFondo {
-  background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
+  background-image: url("../img/principal/musica.jpg");
   @extend %fondo-img;
   border-bottom: 3px solid $color-texto2;
 }

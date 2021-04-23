@@ -291,7 +291,7 @@ hr {
 
 /* Musica */
 .musicaFondo {
-  background-image: url(https://cdn.dribbble.com/users/706421/screenshots/6714785/thomyorke_anima.gif);
+  background-image: url("../img/principal/musica.jpg");
   border-bottom: 3px solid #d90368;
 }
 
