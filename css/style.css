@@ -50,6 +50,11 @@ body {
   transition: all 2s;
 }
 
+.filtroLista a {
+  font-size: 35px !important;
+  padding: 0 10px;
+}
+
 h2 {
   font-size: 45px;
   color: #f0f8ff;
@@ -291,7 +296,7 @@ hr {
 
 /* Musica */
 .musicaFondo {
-  background-image: url("../img/principal/musica.jpg");
+  background-image: url(https://shaunvislearningportfolio.files.wordpress.com/2014/11/record.jpeg);
   border-bottom: 3px solid #d90368;
 }
 
@@ -331,6 +336,10 @@ hr {
   opacity: 0.1;
 }
 
+.modal {
+  transition: all 1s;
+}
+
 .modal-fondo {
   background-color: #000000 !important;
   border: 3px solid #d90368;
@@ -351,16 +360,10 @@ hr {
   cursor: pointer;
   border-radius: 5px !important;
 }
-
 .logo-spotify:hover {
   background-color: #d90368;
   border: 2px solid #000000 !important;
   transition: all 0.2s ease;
-}
-
-.filtroLista a {
-  font-size: 35px !important;
-  padding: 0 10px;
 }
 
 /* Galeria */

@@ -1,7 +1,7 @@
 /* Musica */
 
 .musicaFondo {
-  background-image: url("../img/principal/musica.jpg");
+  background-image: url(https://shaunvislearningportfolio.files.wordpress.com/2014/11/record.jpeg);
   @extend %fondo-img;
   border-bottom: 3px solid $color-texto2;
 }
@@ -19,13 +19,11 @@
 
 .div-imagen {
   position: relative;
-
   img {
     width: 100%;
     height: 290px;
     margin: 5px 5px;
   }
-
   div {
     ol {
       font-size: 14px;
@@ -48,6 +46,10 @@
   }
 }
 
+.modal{
+  transition: all 1s;
+}
+
 .modal-fondo {
   background-color: $color-texto3 !important;
   border: 3px solid $color-texto2;
@@ -67,15 +69,10 @@
   height: 25% !important;
   cursor: pointer;
   border-radius: 5px !important;
+  &:hover {
+    background-color: $color-texto2;
+    border: 2px solid $color-texto3 !important;
+    transition: all 0.2s ease;
+  }
 }
 
-.logo-spotify:hover {
-  background-color: $color-texto2;
-  border: 2px solid $color-texto3 !important;
-  transition: all 0.2s ease;
-}
-
-.filtroLista a {
-  font-size: 35px !important;
-  padding: 0 10px;
-}
