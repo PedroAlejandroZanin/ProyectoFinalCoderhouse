@@ -1,7 +1,8 @@
 /* Musica */
 
 .musicaFondo {
-  background-image: url(https://shaunvislearningportfolio.files.wordpress.com/2014/11/record.jpeg);
+  background-image: url("../img/principal/musica.jpg");
+  
   @extend %fondo-img;
   border-bottom: 3px solid $color-texto2;
 }

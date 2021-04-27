@@ -36,8 +36,10 @@
   }
 
   .filtroLista {
+    
     a {
       font-size: 25px !important;
+
     }
   }
 }
@@ -103,6 +105,7 @@
   }
   
   .filtroLista li {
+    list-style-type: none;
     text-align: center !important;
     display: block;
     justify-content: center !important;

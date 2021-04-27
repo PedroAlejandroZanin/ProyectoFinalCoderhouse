@@ -296,7 +296,7 @@ hr {
 
 /* Musica */
 .musicaFondo {
-  background-image: url(https://shaunvislearningportfolio.files.wordpress.com/2014/11/record.jpeg);
+  background-image: url("../img/principal/musica.jpg");
   border-bottom: 3px solid #d90368;
 }
 
@@ -602,6 +602,7 @@ form button {
   }
 
   .filtroLista li {
+    list-style-type: none;
     text-align: center !important;
     display: block;
     justify-content: center !important;
