@@ -106,6 +106,11 @@ hr {
   color: #f0f8ff !important;
 }
 
+.seccionActual {
+  background-color: #d90368;
+  color: #f0f8ff !important;
+}
+
 .logo {
   margin: 5px 5px;
   position: fixed;
@@ -176,13 +181,13 @@ hr {
 }
 
 .containerAnima {
-  background-image: url("../img/principal/thomAnima.jpg");
+  background-image: url("../img/principal/anima-thom.jpg");
   padding: 1.5em;
   margin: 50px 30px;
 }
 
 .container-netflix {
-  background-image: url("../img/principal/anima-paul.jpg");
+  background-image: url("../img/principal/anima-film.jpg");
   padding: 1.5em;
   margin: 50px 30px;
 }
@@ -194,13 +199,13 @@ hr {
 }
 
 .containerEarth {
-  background-image: url("../img/principal/eob-earth.jpg");
+  background-image: url("../img/principal/earth-ed.jpg");
   padding: 1.5em;
   margin: 50px 30px;
 }
 
 .containerYouNever {
-  background-image: url("../img/principal/jonny-younever.jpg");
+  background-image: url("../img/principal/younever-jonny.jpg");
   padding: 1.5em;
   margin: 50px 30px;
 }
@@ -239,7 +244,7 @@ hr {
 
 /* Fechas */
 .fechasBackground {
-  background-image: url("../img/principal/tour-lg.png");
+  background-image: url("../img/principal/tour.png");
   border-bottom: 3px solid #d90368;
 }
 
@@ -368,7 +373,7 @@ hr {
 
 /* Galeria */
 .galeriaBackground {
-  background-image: url("../img/principal/thomcam.jpg");
+  background-image: url("../img/principal/galeria.jpg");
   border-bottom: 3px solid #d90368;
 }
 
@@ -393,7 +398,7 @@ hr {
 
 /* Tienda */
 .tiendaBackground {
-  background-image: url("../img/principal/store-lg.png");
+  background-image: url("../img/principal/store.png");
   border-bottom: 3px solid #d90368;
 }
 
