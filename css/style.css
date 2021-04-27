@@ -319,11 +319,6 @@ hr {
 .div-imagen {
   position: relative;
 }
-.div-imagen img {
-  width: 100%;
-  height: 290px;
-  margin: 5px 5px;
-}
 .div-imagen div ol {
   font-size: 14px;
   font-family: sans-serif;
@@ -444,6 +439,11 @@ hr {
   padding: 5px 10px;
   color: #f0f8ff;
   font-family: "Didact Gothic", sans-serif;
+}
+.item-tienda img {
+  width: 290px;
+  height: 290px;
+  margin: 5px 5px;
 }
 
 .boton {
@@ -632,10 +632,8 @@ form button {
     margin: 10px 0;
     margin-left: 25%;
   }
-
-  /*== 480px ==*/
 }
-@media only screen and (max-width: 480px) and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
   .card-img-overlay {
     display: flex;
     justify-content: center;
@@ -643,9 +641,15 @@ form button {
   }
 
   .card-img-overlay p {
-    font-size: 13px !important;
+    font-size: 15px !important;
     padding: 0;
     margin: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .item-tienda img {
+    width: 100%;
+    height: 290px;
   }
 }
 /* Mixin */

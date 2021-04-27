@@ -2,7 +2,7 @@
 
 .musicaFondo {
   background-image: url("../img/principal/musica.jpg");
-  
+
   @extend %fondo-img;
   border-bottom: 3px solid $color-texto2;
 }
@@ -20,11 +20,6 @@
 
 .div-imagen {
   position: relative;
-  img {
-    width: 100%;
-    height: 290px;
-    margin: 5px 5px;
-  }
   div {
     ol {
       font-size: 14px;
@@ -47,7 +42,7 @@
   }
 }
 
-.modal{
+.modal {
   transition: all 1s;
 }
 
