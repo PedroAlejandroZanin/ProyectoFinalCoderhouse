@@ -60,7 +60,7 @@ h2 {
   color: #f0f8ff;
   font-family: "radiofont";
   text-align: center;
-  margin: 25px 0;
+  margin: 25px auto;
   width: 100%;
 }
 h2:hover {
@@ -153,9 +153,8 @@ hr {
 
 .cardInicio {
   width: 95%;
-  margin: 50px auto;
+  margin: 40px auto;
 }
-
 .cardInicio:hover {
   border: 1px solid #d90368;
   transition: all 0.2s ease;
@@ -260,18 +259,17 @@ hr {
 .card-tour {
   font-family: "Didact Gothic", sans-serif;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
 }
 .card-tour h5 {
   font-family: "radiofont";
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   color: #d90368;
   letter-spacing: 1px;
 }
 .card-tour p {
   font-family: "Didact Gothic", sans-serif;
-  font-size: 10px;
 }
 
 .card-link {
@@ -285,8 +283,8 @@ hr {
 }
 
 .card-img-top {
-  width: 200px;
-  height: 300px;
+  width: 190px;
+  height: 280px;
 }
 .card-img-top:hover {
   box-shadow: 1px 1px 25px 1px #d90368;
@@ -318,6 +316,11 @@ hr {
 
 .div-imagen {
   position: relative;
+}
+.div-imagen img {
+  width: 290px;
+  height: 290px;
+  margin: 5px 5px;
 }
 .div-imagen div ol {
   font-size: 14px;
@@ -436,14 +439,9 @@ hr {
 }
 .item-tienda p {
   font-size: 15px;
-  padding: 5px 10px;
+  padding: 5px 0px;
   color: #f0f8ff;
   font-family: "Didact Gothic", sans-serif;
-}
-.item-tienda img {
-  width: 290px;
-  height: 290px;
-  margin: 5px 5px;
 }
 
 .boton {

@@ -23,10 +23,7 @@
 
 .cardInicio {
   width: 95%;
-  margin: 50px auto;
-}
-
-.cardInicio {
+  margin: 40px auto;
   &:hover {
     border: 1px solid $color-texto2;
     transition: all 0.2s ease;

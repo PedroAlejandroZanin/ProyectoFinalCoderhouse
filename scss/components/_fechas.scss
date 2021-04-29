@@ -16,17 +16,16 @@
 .card-tour {
   font-family: "Didact Gothic", sans-serif;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   h5 {
     font-family: "radiofont";
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     color: $color-texto2;
     letter-spacing: 1px;
   }
   p {
     font-family: "Didact Gothic", sans-serif;
-    font-size: 10px;
   }
 }
 .card-link {
@@ -39,8 +38,8 @@
   }
 }
 .card-img-top {
-  width: 200px;
-  height: 300px;
+  width: 190px;
+  height: 280px;
   &:hover {
     box-shadow: 1px 1px 25px 1px $color-texto2;
     transition: all 0.2s ease;
