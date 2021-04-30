@@ -570,6 +570,13 @@ form button {
     transition: all 0.3s ease;
   }
 }
+@media only screen and (max-width: 991px) {
+  .container-netflix iframe {
+    width: 100%;
+    height: 235px;
+    margin: 0 auto !important;
+  }
+}
 /*== 768px ==*/
 @media only screen and (max-width: 768px) {
   .containerAnima img,
@@ -584,8 +591,8 @@ form button {
 
   .container-netflix iframe {
     width: 100%;
-    height: 235px;
-    margin: 0 auto;
+    height: 350px;
+    margin: 0 auto !important;
   }
 
   .enlaces {
